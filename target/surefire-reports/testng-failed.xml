@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Group of group Suite]" verbose="0">
+  <test thread-count="5" name="Group of group Test(failed)" verbose="0">
+    <classes>
+      <class name="tests.GooglePageTest">
+        <methods>
+          <include name="closeUp"/>
+          <include name="checkGoogle"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.GooglePageTest -->
+    </classes>
+  </test> <!-- Group of group Test(failed) -->
+</suite> <!-- Failed suite [Group of group Suite] -->
