@@ -1,7 +1,6 @@
 package tests;
 
 import io.qameta.allure.*;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -9,7 +8,7 @@ import org.testng.annotations.Test;
 import page.BasePage;
 import page.MainPage;
 
-public class MainPageTest extends BasePage {
+public class MainPageTest {
 
     public WebDriver driver;
 
