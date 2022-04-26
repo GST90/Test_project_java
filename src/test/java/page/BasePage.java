@@ -3,6 +3,7 @@ package page;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
 import java.util.concurrent.TimeUnit;
 
 public class BasePage {
@@ -16,6 +17,9 @@ public class BasePage {
         driver = new ChromeDriver();
 //        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//        ChromeOptions options = new ChromeOptions();
+//        options.setHeadless(true);
+//        driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.get("http://automationpractice.com/");
         tdriver.set(driver);
@@ -25,4 +29,5 @@ public class BasePage {
     public static synchronized WebDriver getDriver() {
         return tdriver.get();
     }
+
 }

@@ -1,5 +1,7 @@
 package tests;
 
+import io.qameta.allure.*;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -17,6 +19,11 @@ public class MainPageTest extends BasePage {
         driver = bs.initialize_driver();
     }
 
+
+    @Severity(SeverityLevel.NORMAL)
+    @Description("In this test we will select the cheapest dress from catalog. When the dress will selected there" +
+            " will be assertions of dress we need and its condition.")
+    @Story(value = "Test for selection the cheapest dress from catalog and to ensure we select we need")
     @Test
     public void checkDressCard() {
         MainPage main = new MainPage(driver);
@@ -29,6 +36,9 @@ public class MainPageTest extends BasePage {
         main.dressAssert(dressTitle, dressCondition);
     }
 
+    @Severity(SeverityLevel.NORMAL)
+    @Description("In this test we check the message after typing nonexistent dress in the search input.")
+    @Story(value = "Test to ensure we have the message we need")
     @Test
     public void checkSearchInputNone() {
         MainPage main = new MainPage(driver);

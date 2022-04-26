@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="59.547" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="86.654" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -64,8 +64,8 @@
     <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.5\lib\jansi-native"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="checkDressCard" classname="tests.MainPageTest" time="5.644"/>
-  <testcase name="checkSearchInputNone" classname="tests.MainPageTest" time="1.52"/>
-  <testcase name="checkMessageSent" classname="tests.ContactPageTest" time="3.222"/>
-  <testcase name="checkCardEmpty" classname="tests.EmptyCartPageTest" time="2.036"/>
+  <testcase name="checkDressCard" classname="tests.MainPageTest" time="11.212"/>
+  <testcase name="checkSearchInputNone" classname="tests.MainPageTest" time="9.201"/>
+  <testcase name="checkMessageSent" classname="tests.ContactPageTest" time="14.138"/>
+  <testcase name="checkCardEmpty" classname="tests.EmptyCartPageTest" time="6.085"/>
 </testsuite>
