@@ -1,0 +1,7 @@
+page\BasePage.class
+tests\EmptyCartPageTest.class
+page\EmptyCartPage.class
+page\ContactPage.class
+page\MainPage.class
+tests\ContactPageTest.class
+tests\MainPageTest.class

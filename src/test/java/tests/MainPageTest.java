@@ -22,7 +22,7 @@ public class MainPageTest extends BasePage {
         MainPage main = new MainPage(driver);
         String dressTitle = "Printed Chiffon Dress";
         String dressCondition = "New";
-        main.Search("Printed Dress");
+        main.Search(dressTitle);
         main.clickSearch();
         main.sortBy();
         main.clickMore();

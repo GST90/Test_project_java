@@ -1,6 +1,5 @@
 package page;
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -18,6 +17,7 @@ public class MainPage extends BasePage {
     By dressTitle = By.xpath("//h1[text()=\"Printed Chiffon Dress\"]");
     By dressCondition = By.xpath("//span[text()=\"New\"]");
     By nothingFound = By.xpath("//span[@class=\"heading-counter\"]");
+    By wishList = By.linkText("Add to Wishlist");
 
     WebDriver driver;
 
@@ -31,6 +31,11 @@ public class MainPage extends BasePage {
 
     public void clickSearch() {
         driver.findElement(InputSearch).sendKeys(Keys.ENTER);
+    }
+
+    public void checkWishList(String title) {
+        String actualTitles = driver.findElements(wishList).getText();
+        assertTrue(actualTitles.contains(title));
     }
 
     public void sortBy() {
