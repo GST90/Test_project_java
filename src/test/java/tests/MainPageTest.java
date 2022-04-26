@@ -29,11 +29,10 @@ public class MainPageTest extends BasePage {
         MainPage main = new MainPage(driver);
         String dressTitle = "Printed Chiffon Dress";
         String dressCondition = "New";
-        main.Search(dressTitle);
-        main.clickSearch();
-        main.sortBy();
+        main.checkSearch(dressTitle);
+        main.checkSortBy();
         main.clickMore();
-        main.dressAssert(dressTitle, dressCondition);
+        main.dressAssert(dressCondition);
     }
 
     @Severity(SeverityLevel.NORMAL)
@@ -43,8 +42,7 @@ public class MainPageTest extends BasePage {
     public void checkSearchInputNone() {
         MainPage main = new MainPage(driver);
         String result = "0 results have been found.";
-        main.Search("random word");
-        main.clickSearch();
+        main.checkSearch("random word");
         main.searchResultAssert(result);
     }
 

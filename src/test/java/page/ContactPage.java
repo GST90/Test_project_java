@@ -54,7 +54,7 @@ public class ContactPage extends BasePage {
         text.sendKeys(value);
     }
 
-    public void clickSubmit() {
+    public void pressSubmit() {
         submitButton.click();
     }
 

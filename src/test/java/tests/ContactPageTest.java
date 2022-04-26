@@ -36,7 +36,7 @@ public class ContactPageTest extends BasePage {
         contact.typeEmail(email);
         contact.typeOrder(order);
         contact.typeMessage(text);
-        contact.clickSubmit();
+        contact.pressSubmit();
         contact.checkMessageSuccess(message);
     }
 
