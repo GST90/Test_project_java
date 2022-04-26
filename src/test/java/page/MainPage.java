@@ -33,10 +33,10 @@ public class MainPage extends BasePage {
         driver.findElement(InputSearch).sendKeys(Keys.ENTER);
     }
 
-    public void checkWishList(String title) {
-        String actualTitles = driver.findElements(wishList).getText();
-        assertTrue(actualTitles.contains(title));
-    }
+//    public void checkWishList(String title) {
+//        String actualTitles = driver.findElements(wishList).getText();
+//        assertTrue(actualTitles.contains(title));
+//    }
 
     public void sortBy() {
         WebElement sort = driver.findElement(SortBy);
