@@ -8,9 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import static org.testng.Assert.assertTrue;
 
 
-public class EmptyCartPage extends BasePage {
-
-    WebDriver driver;
+public class EmptyCartPage extends BaseClass{
 
     @FindBy(xpath = "//a[@title=\"View my shopping cart\"]")
     WebElement Cart;
@@ -18,7 +16,6 @@ public class EmptyCartPage extends BasePage {
     WebElement Empty;
 
     public EmptyCartPage(WebDriver driver) {
-        this.driver=driver;
         PageFactory.initElements(driver, this);
     }
 

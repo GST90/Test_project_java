@@ -10,7 +10,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-public class MainPage extends BasePage {
+public class MainPage extends BaseClass{
 
     By InputSearch = By.xpath("//input[@name=\"search_query\"]");
     By SortBy = By.xpath("//select[@id=\"selectProductSort\"]");
@@ -19,7 +19,6 @@ public class MainPage extends BasePage {
     By dressCondition = By.xpath("//span[text()=\"New\"]");
     By nothingFound = By.xpath("//span[@class=\"heading-counter\"]");
 
-    WebDriver driver;
 
     public MainPage(WebDriver driver) {
         this.driver=driver;

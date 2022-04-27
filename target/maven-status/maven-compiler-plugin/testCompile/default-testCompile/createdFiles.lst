@@ -1,5 +1,5 @@
-page\BasePage.class
 tests\EmptyCartPageTest.class
+page\BaseClass.class
 page\EmptyCartPage.class
 page\ContactPage.class
 page\MainPage.class

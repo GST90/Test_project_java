@@ -8,9 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import static org.testng.Assert.assertTrue;
 
-public class ContactPage extends BasePage {
-
-    WebDriver driver;
+public class ContactPage extends BaseClass{
 
     @FindBy(xpath = "//a[@title=\"Contact Us\"]")
     WebElement contactUs;
@@ -28,7 +26,6 @@ public class ContactPage extends BasePage {
     WebElement successMessage;
 
     public ContactPage(WebDriver driver) {
-        this.driver=driver;
         PageFactory.initElements(driver, this);
     }
 

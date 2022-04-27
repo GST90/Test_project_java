@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import page.BasePage;
+import page.BaseClass;
 import page.MainPage;
 
 public class MainPageTest {
@@ -14,7 +14,7 @@ public class MainPageTest {
 
     @BeforeClass
     public void setUp() {
-        BasePage bs = new BasePage();
+        BaseClass bs = new BaseClass();
         driver = bs.initialize_driver();
     }
 
