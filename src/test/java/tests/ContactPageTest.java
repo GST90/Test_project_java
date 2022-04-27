@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import page.BaseClass;
 import page.ContactPage;
+
 public class ContactPageTest{
 
     public WebDriver driver;
