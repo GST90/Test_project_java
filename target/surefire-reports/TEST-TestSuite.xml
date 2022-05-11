@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="39.017" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="77.676" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="jdk.debug" value="release"/>
     <property name="maven.home" value="C:\Program Files\apache-maven-3.8.5"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -55,7 +55,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.8.5\bin;C:\Users\S.Herasimenka\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\S.Herasimenka\AppData\Local\Programs\Python\Python38\;C:\Users\S.Herasimenka\scoop\shims;C:\Users\S.Herasimenka\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.3\bin;C:\Users\S.Herasimenka\AppData\Roaming\npm;C:\Users\S.Herasimenka\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.8.5\bin;C:\Users\S.Herasimenka\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\S.Herasimenka\AppData\Local\Programs\Python\Python38\;C:\Users\S.Herasimenka\scoop\shims;C:\Users\S.Herasimenka\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.3\bin;C:\Users\S.Herasimenka\AppData\Roaming\npm;C:\Users\S.Herasimenka\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;;;C:\Users\S.Herasimenka\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
@@ -64,8 +64,8 @@
     <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.5\lib\jansi-native"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="checkDressCard" classname="tests.MainPageTest" time="3.799"/>
-  <testcase name="checkSearchInputNone" classname="tests.MainPageTest" time="2.142"/>
-  <testcase name="checkMessageSent" classname="tests.ContactPageTest" time="4.293"/>
-  <testcase name="checkCardEmpty" classname="tests.EmptyCartPageTest" time="1.064"/>
+  <testcase name="checkDressCard" classname="tests.MainPageTest" time="8.59"/>
+  <testcase name="checkSearchInputNone" classname="tests.MainPageTest" time="7.579"/>
+  <testcase name="checkMessageSent" classname="tests.ContactPageTest" time="14.792"/>
+  <testcase name="checkCardEmpty" classname="tests.EmptyCartPageTest" time="6.625"/>
 </testsuite>

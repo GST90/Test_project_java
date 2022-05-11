@@ -1,4 +1,7 @@
+helpers\PostRequest.class
+helpers\GetRequest.class
 tests\EmptyCartPageTest.class
+tests\ApiTest.class
 page\BaseClass.class
 page\EmptyCartPage.class
 page\ContactPage.class
